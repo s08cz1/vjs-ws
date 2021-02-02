@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Video.js and WaveSurfer integration playground",
   "private": true,
-  "keywords": ["video.js", "wavesurfer"],
+  "keywords": [
+    "video.js",
+    "wavesurfer"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -14,12 +17,13 @@
   "devDependencies": {
     "css-loader": "^5.0.1",
     "style-loader": "^2.0.0",
-    "video.js": "^7.10.2",
+    "video.js": "^4.12.15",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "videojs-wavesurfer": "^3.4.0"
+    "videojs-wavesurfer": "^3.4.0",
+    "wavesurfer.js": "4.4.0"
   }
 }
